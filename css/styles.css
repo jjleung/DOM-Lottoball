@@ -3,10 +3,10 @@ body {
 }
 
 p {
-	font-size: 70pt;
+	font-size: 85pt;
 	color: black;
-	position: relative;
-	font-family: 'Bungee', cursive;
+	font-family: 'Skranji', cursive;
+	line-height: 10%;
 }
 
 font-family {
@@ -44,11 +44,10 @@ h2 {
 
 #ballrow {
 	color: black
-	vertical-align: middle;
 }
 
 .ballSpot {
-	background-color: white;
+	background-image: url(/whBall.jpg);
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
@@ -56,12 +55,10 @@ h2 {
 	display: inline-block;
 	margin: 10px;
 	text-align: center;
-	font-size: 32pt;
-	vertical-align: middle;
 }
 
 #thePower {
-	background-color: yellow;
+	background-image: url(/orBall.jpg);
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
@@ -69,7 +66,6 @@ h2 {
 	display: inline-block;
 	margin: 10px;
 	text-align: center;
-	vertical-align: middle;
 }
 
 #credit{
