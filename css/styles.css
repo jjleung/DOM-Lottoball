@@ -1,2 +1,80 @@
+body {
+	background-color: black;
+}
 
+p {
+	font-size: 70pt;
+	color: black;
+	position: relative;
+	font-family: 'Bungee', cursive;
+}
 
+font-family {
+
+}
+
+header {
+	color: coral;
+	font-size: 50pt;
+	text-align: center;
+	justify-content: center;
+	font-family: 'Frijole', cursive;
+}
+
+h1{
+	line-height: 90%
+}
+
+button {
+	margin-bottom: 50px;
+	background-color: black;
+	border-radius: 50%;
+	outline: none;
+}
+
+img {
+	border-radius: 50%;
+}
+
+h2 {
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 135px;
+}
+
+#ballrow {
+	color: black
+	vertical-align: middle;
+}
+
+.ballSpot {
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	font-size: 32pt;
+	vertical-align: middle;
+}
+
+#thePower {
+	background-color: yellow;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#credit{
+	text-align: center;
+	color: azure;
+	font-size: 16pt;
+	font-family: 'Press Start 2P', cursive;
+}
