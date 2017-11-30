@@ -7,13 +7,11 @@ function drawBall(){
 		ballArray.push(i);
 	}
 
-	var ballPit = ballArray;
-	var oneBall = 0;
 	var theBalls = document.getElementsByClassName("roll");
 
 	for(var j = 0; j < theBalls.length; j++){
-		var ranTop = ballPit.length;
-		oneBall = Math.floor(Math.random()*ranTop);
+		var ranTop = ballArray.length;
+		var oneBall = Math.floor(Math.random()*ranTop);
 		theBalls[j].innerHTML = ballArray[oneBall];
 		ballArray.splice(oneBall, 1);
 		console.log(ballArray);
